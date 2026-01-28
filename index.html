@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>炭火焼き鳥 炎-HOMURA-【公式】</title>
+    <meta name="description" content="釧路の本格炭火焼き鳥「炎-HOMURA-」。厳選された国産鶏と秘伝のタレで仕上げる至極の一串をお楽しみください。ご予約承り中。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Fixed Reservation Button -->
+    <a href="#reservation" class="fixed-reservation-btn">
+        <span class="icon">📅</span>
+        <span class="text">ネット予約</span>
+    </a>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">
+                <span class="logo-main">炎</span>
+                <span class="logo-sub">HOMURA</span>
+            </a>
+            <button class="menu-toggle" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#concept">コンセプト</a></li>
+                <li><a href="#menu">おすすめ料理</a></li>
+                <li><a href="#course">コース</a></li>
+                <li><a href="#atmosphere">店内の雰囲気</a></li>
+                <li><a href="#drinks">ドリンク</a></li>
+                <li><a href="#access">アクセス</a></li>
+                <li><a href="#reservation" class="nav-reservation">ご予約</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#concept">コンセプト</a></li>
+            <li><a href="#menu">おすすめ料理</a></li>
+            <li><a href="#course">コース</a></li>
+            <li><a href="#atmosphere">店内の雰囲気</a></li>
+            <li><a href="#drinks">ドリンク</a></li>
+            <li><a href="#access">アクセス</a></li>
+            <li><a href="#reservation" class="mobile-nav-reservation">ご予約</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Since 2020</div>
+            <h1 class="hero-title">
+                <span class="hero-title-jp">炭火焼き鳥</span>
+                <span class="hero-title-main">炎</span>
+                <span class="hero-title-en">HOMURA</span>
+            </h1>
+            <p class="hero-subtitle">厳選国産鶏と秘伝のタレ<br>炭火で焼き上げる至極の一串</p>
+            <a href="#reservation" class="hero-cta">
+                <span>空席確認・ネット予約</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Reservation Status -->
+    <section class="reservation-status">
+        <div class="container">
+            <div class="status-header">
+                <h2 class="section-title-sm">ネット予約の空席状況</h2>
+                <div class="status-date">2026年1月28日（火）</div>
+            </div>
+            <div class="time-slots">
+                <div class="time-slot available">
+                    <span class="time">17:00</span>
+                    <span class="status">◎</span>
+                </div>
+                <div class="time-slot available">
+                    <span class="time">18:00</span>
+                    <span class="status">◎</span>
+                </div>
+                <div class="time-slot limited">
+                    <span class="time">19:00</span>
+                    <span class="status">△</span>
+                </div>
+                <div class="time-slot limited">
+                    <span class="time">20:00</span>
+                    <span class="status">△</span>
+                </div>
+                <div class="time-slot full">
+                    <span class="time">21:00</span>
+                    <span class="status">×</span>
+                </div>
+            </div>
+            <a href="#reservation" class="btn-primary">予約する</a>
+        </div>
+    </section>
+
+    <!-- Concept Section -->
+    <section id="concept" class="concept">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Concept</span>
+                <h2 class="section-title">こだわり</h2>
+            </div>
+            <div class="concept-grid">
+                <div class="concept-card">
+                    <div class="concept-icon">🔥</div>
+                    <h3>備長炭へのこだわり</h3>
+                    <p>紀州産の最高級備長炭を使用。遠赤外線効果で外はパリッと、中はジューシーに焼き上げます。</p>
+                </div>
+                <div class="concept-card">
+                    <div class="concept-icon">🐔</div>
+                    <h3>国産鶏へのこだわり</h3>
+                    <p>知覧鶏、比内地鶏など厳選した国産銘柄鶏のみを使用。新鮮な朝引き鶏をお届けします。</p>
+                </div>
+                <div class="concept-card">
+                    <div class="concept-icon">🍶</div>
+                    <h3>秘伝のタレ</h3>
+                    <p>創業以来継ぎ足し続けた秘伝のタレ。深みのあるコクと香りが串を引き立てます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommended Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Recommend</span>
+                <h2 class="section-title">おすすめ料理</h2>
+            </div>
+            <div class="menu-featured">
+                <div class="menu-featured-card">
+                    <div class="menu-image">
+                        <img src="images/yakitori-main.jpg" alt="特選焼き鳥5種盛り">
+                        <div class="menu-badge">人気No.1</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-title">特選焼き鳥5種盛り</h3>
+                        <p class="menu-desc">もも・ねぎま・つくね・砂肝・レバーの5種盛り。当店自慢の味をお楽しみください。</p>
+                        <span class="menu-price">¥1,280（税込）</span>
+                    </div>
+                </div>
+                <div class="menu-featured-card">
+                    <div class="menu-image">
+                        <img src="images/toriwasa.jpg" alt="知覧鶏のとりわさ">
+                        <div class="menu-badge">おすすめ</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-title">知覧鶏のとりわさ</h3>
+                        <p class="menu-desc">しっとり食感が自慢の一品。新鮮な知覧鶏だからこそ味わえる極上の逸品。</p>
+                        <span class="menu-price">¥880（税込）</span>
+                    </div>
+                </div>
+                <div class="menu-featured-card">
+                    <div class="menu-image">
+                        <img src="images/oyakodon.jpg" alt="炎の親子丼">
+                        <div class="menu-badge">〆の逸品</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-title">炎の親子丼</h3>
+                        <p class="menu-desc">炭火で香ばしく焼いた焼き鳥と、ふわとろ卵のハーモニー。至福の〆をお楽しみください。</p>
+                        <span class="menu-price">¥980（税込）</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Section -->
+    <section id="course" class="course-section">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-label">Course</span>
+                <h2 class="section-title">コース料理</h2>
+            </div>
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-header">
+                        <span class="course-tag">人気No.1</span>
+                        <h3 class="course-title">炎満喫コース</h3>
+                        <div class="course-meta">
+                            <span>120分飲み放題付</span>
+                            <span>2名様〜</span>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <span class="price-main">4,500</span>
+                        <span class="price-sub">円（税込）</span>
+                    </div>
+                    <ul class="course-includes">
+                        <li>本日のお通し</li>
+                        <li>鶏刺し三種盛り</li>
+                        <li>特選焼き鳥5種盛り</li>
+                        <li>鶏の唐揚げ</li>
+                        <li>〆の親子丼</li>
+                        <li>デザート</li>
+                    </ul>
+                    <a href="#reservation" class="course-btn">このコースを予約</a>
+                </div>
+                <div class="course-card featured">
+                    <div class="course-header">
+                        <span class="course-tag premium">贅沢プラン</span>
+                        <h3 class="course-title">極上地鶏コース</h3>
+                        <div class="course-meta">
+                            <span>150分飲み放題付</span>
+                            <span>2名様〜</span>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <span class="price-main">6,500</span>
+                        <span class="price-sub">円（税込）</span>
+                    </div>
+                    <ul class="course-includes">
+                        <li>季節の前菜三種</li>
+                        <li>比内地鶏の刺身</li>
+                        <li>極上焼き鳥8種盛り</li>
+                        <li>鶏の水炊き鍋</li>
+                        <li>鶏そば</li>
+                        <li>特製デザート</li>
+                    </ul>
+                    <a href="#reservation" class="course-btn">このコースを予約</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-header">
+                        <span class="course-tag">食べ放題</span>
+                        <h3 class="course-title">炎食べ飲み放題</h3>
+                        <div class="course-meta">
+                            <span>120分食べ飲み放題</span>
+                            <span>2名様〜</span>
+                        </div>
+                    </div>
+                    <div class="course-price">
+                        <span class="price-main">5,500</span>
+                        <span class="price-sub">円（税込）</span>
+                    </div>
+                    <ul class="course-includes">
+                        <li>焼き鳥全種食べ放題</li>
+                        <li>サラダ・逸品料理</li>
+                        <li>揚げ物各種</li>
+                        <li>〆の一品</li>
+                        <li>ドリンク飲み放題</li>
+                    </ul>
+                    <a href="#reservation" class="course-btn">このコースを予約</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Atmosphere Section -->
+    <section id="atmosphere" class="atmosphere-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Atmosphere</span>
+                <h2 class="section-title">店内の雰囲気</h2>
+            </div>
+            <div class="atmosphere-gallery">
+                <div class="gallery-item large">
+                    <img src="images/interior-main.jpg" alt="カウンター席">
+                    <div class="gallery-caption">
+                        <h4>職人の技を目の前で</h4>
+                        <p>カウンター席</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/interior-private.jpg" alt="個室">
+                    <div class="gallery-caption">
+                        <h4>プライベート空間</h4>
+                        <p>半個室・個室（2〜10名様）</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/interior-table.jpg" alt="テーブル席">
+                    <div class="gallery-caption">
+                        <h4>ゆったり寛げる</h4>
+                        <p>テーブル席</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Categories Section -->
+    <section class="menu-categories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Menu</span>
+                <h2 class="section-title">料理メニュー</h2>
+            </div>
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="yakitori">焼き鳥</button>
+                <button class="menu-tab" data-category="ippin">逸品料理</button>
+                <button class="menu-tab" data-category="salad">サラダ</button>
+                <button class="menu-tab" data-category="shime">〆のメニュー</button>
+            </div>
+            <div class="menu-category-content" id="yakitori">
+                <div class="menu-list">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>もも</h4>
+                            <p>脂ののった柔らかなもも肉</p>
+                        </div>
+                        <span class="menu-item-price">¥180</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>ねぎま</h4>
+                            <p>ネギの甘みと鶏の旨味</p>
+                        </div>
+                        <span class="menu-item-price">¥200</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>つくね</h4>
+                            <p>自家製軟骨入りつくね</p>
+                        </div>
+                        <span class="menu-item-price">¥220</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>砂肝</h4>
+                            <p>コリコリの食感が人気</p>
+                        </div>
+                        <span class="menu-item-price">¥180</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>レバー</h4>
+                            <p>新鮮レバーをレア仕上げ</p>
+                        </div>
+                        <span class="menu-item-price">¥180</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>手羽先</h4>
+                            <p>パリッとジューシー</p>
+                        </div>
+                        <span class="menu-item-price">¥250</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>ぼんじり</h4>
+                            <p>脂の甘みが格別</p>
+                        </div>
+                        <span class="menu-item-price">¥200</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>せせり</h4>
+                            <p>希少部位の絶品</p>
+                        </div>
+                        <span class="menu-item-price">¥220</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-category-content hidden" id="ippin">
+                <div class="menu-list">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>鶏の唐揚げ</h4>
+                            <p>サクッとジューシー</p>
+                        </div>
+                        <span class="menu-item-price">¥680</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>鶏皮ポン酢</h4>
+                            <p>さっぱりコリコリ</p>
+                        </div>
+                        <span class="menu-item-price">¥480</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>軟骨のから揚げ</h4>
+                            <p>お酒のお供に最適</p>
+                        </div>
+                        <span class="menu-item-price">¥580</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>出汁巻き玉子</h4>
+                            <p>鶏スープ出汁のふわふわ</p>
+                        </div>
+                        <span class="menu-item-price">¥580</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-category-content hidden" id="salad">
+                <div class="menu-list">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>チョレギサラダ</h4>
+                            <p>特製ドレッシング</p>
+                        </div>
+                        <span class="menu-item-price">¥580</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>シーザーサラダ</h4>
+                            <p>パルミジャーノたっぷり</p>
+                        </div>
+                        <span class="menu-item-price">¥680</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-category-content hidden" id="shime">
+                <div class="menu-list">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>親子丼</h4>
+                            <p>焼き鳥とふわとろ卵</p>
+                        </div>
+                        <span class="menu-item-price">¥980</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>鶏そば</h4>
+                            <p>濃厚鶏白湯スープ</p>
+                        </div>
+                        <span class="menu-item-price">¥780</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>焼きおにぎり</h4>
+                            <p>秘伝のタレで香ばしく</p>
+                        </div>
+                        <span class="menu-item-price">¥350</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drinks Section -->
+    <section id="drinks" class="drinks-section">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-label">Drinks</span>
+                <h2 class="section-title">ドリンク</h2>
+            </div>
+            <div class="drinks-grid">
+                <div class="drink-category">
+                    <h3 class="drink-category-title">🍺 ビール</h3>
+                    <ul class="drink-list">
+                        <li><span>サッポロ黒ラベル 生</span><span>¥580</span></li>
+                        <li><span>サッポロクラシック</span><span>¥650</span></li>
+                        <li><span>ノンアルコールビール</span><span>¥450</span></li>
+                    </ul>
+                </div>
+                <div class="drink-category">
+                    <h3 class="drink-category-title">🥃 ハイボール</h3>
+                    <ul class="drink-list">
+                        <li><span>角ハイボール</span><span>¥480</span></li>
+                        <li><span>知多ハイボール</span><span>¥650</span></li>
+                        <li><span>ジンジャーハイ</span><span>¥480</span></li>
+                        <li><span>コーラハイ</span><span>¥480</span></li>
+                    </ul>
+                </div>
+                <div class="drink-category">
+                    <h3 class="drink-category-title">🍶 日本酒</h3>
+                    <ul class="drink-list">
+                        <li><span>地酒3種飲み比べ</span><span>¥980</span></li>
+                        <li><span>純米大吟醸</span><span>¥850</span></li>
+                        <li><span>本醸造</span><span>¥580</span></li>
+                    </ul>
+                </div>
+                <div class="drink-category">
+                    <h3 class="drink-category-title">🍸 サワー</h3>
+                    <ul class="drink-list">
+                        <li><span>レモンサワー</span><span>¥450</span></li>
+                        <li><span>グレフルサワー</span><span>¥450</span></li>
+                        <li><span>梅サワー</span><span>¥480</span></li>
+                        <li><span>ゆずサワー</span><span>¥480</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Reservation</span>
+                <h2 class="section-title">ご予約</h2>
+            </div>
+            <div class="reservation-content">
+                <div class="reservation-info">
+                    <p class="reservation-lead">ネット予約なら24時間いつでもご予約可能です。<br>お電話でのご予約も承っております。</p>
+                    <div class="reservation-methods">
+                        <a href="#" class="reservation-btn-main">
+                            <span class="btn-icon">📅</span>
+                            <span class="btn-content">
+                                <span class="btn-label">ネット予約</span>
+                                <span class="btn-sub">24時間受付・空席確認</span>
+                            </span>
+                        </a>
+                        <a href="tel:0154-XX-XXXX" class="reservation-btn-phone">
+                            <span class="btn-icon">📞</span>
+                            <span class="btn-content">
+                                <span class="btn-label">電話予約</span>
+                                <span class="btn-sub">0154-XX-XXXX</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="reservation-form-container">
+                    <form class="reservation-form">
+                        <div class="form-group">
+                            <label for="date">ご希望日</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="time">時間</label>
+                                <select id="time" name="time" required>
+                                    <option value="">選択してください</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="21:00">21:00</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">人数</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="">選択</option>
+                                    <option value="1">1名</option>
+                                    <option value="2">2名</option>
+                                    <option value="3">3名</option>
+                                    <option value="4">4名</option>
+                                    <option value="5">5名</option>
+                                    <option value="6">6名以上</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="name" placeholder="例：山田 太郎" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">電話番号</label>
+                            <input type="tel" id="phone" name="phone" placeholder="例：090-1234-5678" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="email" placeholder="例：example@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="course">コース選択</label>
+                            <select id="course" name="course">
+                                <option value="">席のみ予約</option>
+                                <option value="manpuku">炎満喫コース ¥4,500</option>
+                                <option value="gokujo">極上地鶏コース ¥6,500</option>
+                                <option value="tabenomi">炎食べ飲み放題 ¥5,500</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="requests">ご要望</label>
+                            <textarea id="requests" name="requests" rows="3" placeholder="アレルギー、お席のご要望など"></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">予約を確定する</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Access Section -->
+    <section id="access" class="access-section">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-label">Access</span>
+                <h2 class="section-title">アクセス</h2>
+            </div>
+            <div class="access-content">
+                <div class="access-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.5889!2d144.3816!3d42.9849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDU5JzA1LjYiTiAxNDTCsDIyJzUzLjgiRQ!5e0!3m2!1sja!2sjp!4v1234567890"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="access-info">
+                    <div class="shop-name">
+                        <h3>炭火焼き鳥 炎-HOMURA-</h3>
+                    </div>
+                    <table class="shop-details">
+                        <tr>
+                            <th>住所</th>
+                            <td>〒085-0015<br>北海道釧路市北大通5丁目1-2 ビル2F</td>
+                        </tr>
+                        <tr>
+                            <th>アクセス</th>
+                            <td>JR釧路駅より徒歩5分</td>
+                        </tr>
+                        <tr>
+                            <th>電話番号</th>
+                            <td><a href="tel:0154-XX-XXXX">0154-XX-XXXX</a></td>
+                        </tr>
+                        <tr>
+                            <th>営業時間</th>
+                            <td>17:00〜24:00（L.O. 23:00）</td>
+                        </tr>
+                        <tr>
+                            <th>定休日</th>
+                            <td>日曜日</td>
+                        </tr>
+                        <tr>
+                            <th>席数</th>
+                            <td>カウンター8席 / テーブル24席 / 個室4室</td>
+                        </tr>
+                        <tr>
+                            <th>お支払い</th>
+                            <td>現金 / クレジットカード / QRコード決済</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-main">炎</span>
+                    <span class="logo-sub">HOMURA</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#concept">コンセプト</a>
+                    <a href="#menu">料理</a>
+                    <a href="#course">コース</a>
+                    <a href="#drinks">ドリンク</a>
+                    <a href="#access">アクセス</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="LINE">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.349 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 炭火焼き鳥 炎-HOMURA-. All Rights Reserved.</p>
+                <p class="footer-note">※このサイトはサンプル・ポートフォリオ用のデモサイトです。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
