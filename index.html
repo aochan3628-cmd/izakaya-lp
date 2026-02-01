@@ -124,19 +124,28 @@
             </div>
             <div class="concept-grid">
                 <div class="concept-card">
-                    <div class="concept-icon"><img src="images/icon-fire.png" alt="" style="width: 48px; height: 48px;">
+                    <div class="concept-icon"
+                        style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin: 0 auto 20px;">
+                        <img src="images/concept-charcoal.png" alt="備長炭"
+                            style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <h3>備長炭へのこだわり</h3>
                     <p>紀州産の最高級備長炭を使用。遠赤外線効果で外はパリッと、中はジューシーに焼き上げます。</p>
                 </div>
                 <div class="concept-card">
-                    <div class="concept-icon"><img src="images/icon-chicken.png" alt=""
-                            style="width: 48px; height: 48px;"></div>
+                    <div class="concept-icon"
+                        style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin: 0 auto 20px;">
+                        <img src="images/concept-chicken.png" alt="焼き鳥"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
                     <h3>国産鶏へのこだわり</h3>
                     <p>知覧鶏、比内地鶏など厳選した国産銘柄鶏のみを使用。新鮮な朝引き鶏をお届けします。</p>
                 </div>
                 <div class="concept-card">
-                    <div class="concept-icon"><img src="images/icon-sake.png" alt="" style="width: 48px; height: 48px;">
+                    <div class="concept-icon"
+                        style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin: 0 auto 20px;">
+                        <img src="images/concept-tare.png" alt="秘伝のタレ"
+                            style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <h3>秘伝のタレ</h3>
                     <p>創業以来継ぎ足し続けた秘伝のタレ。深みのあるコクと香りが串を引き立てます。</p>
@@ -463,8 +472,7 @@
             </div>
             <div class="drinks-grid">
                 <div class="drink-category">
-                    <h3 class="drink-category-title"><img src="images/icon-beer.png" alt=""
-                            style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">ビール</h3>
+                    <h3 class="drink-category-title">ビール</h3>
                     <ul class="drink-list">
                         <li><span>サッポロ黒ラベル 生</span><span>¥580</span></li>
                         <li><span>サッポロクラシック</span><span>¥650</span></li>
@@ -472,8 +480,7 @@
                     </ul>
                 </div>
                 <div class="drink-category">
-                    <h3 class="drink-category-title"><img src="images/icon-highball.png" alt=""
-                            style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">ハイボール</h3>
+                    <h3 class="drink-category-title">ハイボール</h3>
                     <ul class="drink-list">
                         <li><span>角ハイボール</span><span>¥480</span></li>
                         <li><span>知多ハイボール</span><span>¥650</span></li>
@@ -482,8 +489,7 @@
                     </ul>
                 </div>
                 <div class="drink-category">
-                    <h3 class="drink-category-title"><img src="images/icon-sake.png" alt=""
-                            style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">日本酒</h3>
+                    <h3 class="drink-category-title">日本酒</h3>
                     <ul class="drink-list">
                         <li><span>地酒3種飲み比べ</span><span>¥980</span></li>
                         <li><span>純米大吟醸</span><span>¥850</span></li>
@@ -491,8 +497,7 @@
                     </ul>
                 </div>
                 <div class="drink-category">
-                    <h3 class="drink-category-title"><img src="images/icon-cocktail.png" alt=""
-                            style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">サワー</h3>
+                    <h3 class="drink-category-title">サワー</h3>
                     <ul class="drink-list">
                         <li><span>レモンサワー</span><span>¥450</span></li>
                         <li><span>グレフルサワー</span><span>¥450</span></li>
@@ -512,184 +517,165 @@
                 <h2 class="section-title">ご予約</h2>
             </div>
             <div class="reservation-content">
-                <!-- STORES予約 埋め込みプレビュー -->
-                <div
-                    style="max-width: 600px; margin: 0 auto 40px; background: #1a1a1a; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); overflow: hidden; border: 1px solid #333;">
-
-                    <!-- STORES Header -->
-                    <div
-                        style="background: linear-gradient(135deg, #E63946 0%, #FF6B6B 100%); color: white; padding: 20px; text-align: center;">
-                        <div style="font-size: 0.8rem; opacity: 0.9; margin-bottom: 5px;">STORES 予約</div>
-                        <div style="font-size: 1.3rem; font-weight: bold;">炭火焼き鳥 炎-HOMURA-</div>
-                    </div>
-
-                    <!-- Calendar Mock -->
-                    <div style="padding: 20px; background: #222;">
+                <!-- デスクトップ: 2カラム -->
+                <div style="display: flex; justify-content: center; gap: 40px;">
+                    <div style="width: 550px; flex-shrink: 0;">
                         <div
-                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                            <button
-                                style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #888;">◀</button>
-                            <span style="font-weight: bold; font-size: 1.1rem; color: #fff;">2026年2月</span>
-                            <button
-                                style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #888;">▶</button>
-                        </div>
+                            style="background: #1a1a1a; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); overflow: hidden; border: 1px solid #333;">
 
-                        <!-- Week Header -->
-                        <div
-                            style="display: grid; grid-template-columns: repeat(7, 1fr); text-align: center; font-size: 0.8rem; color: #888; margin-bottom: 10px;">
-                            <span
-                                style="color: #E63946;">日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span
-                                style="color: #4A90D9;">土</span>
-                        </div>
-
-                        <!-- Calendar Grid -->
-                        <div
-                            style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; text-align: center;">
-                            <span style="padding: 10px; color: #555;">26</span>
-                            <span style="padding: 10px; color: #555;">27</span>
-                            <span style="padding: 10px; color: #555;">28</span>
-                            <span style="padding: 10px; color: #555;">29</span>
-                            <span style="padding: 10px; color: #555;">30</span>
-                            <span style="padding: 10px; color: #555;">31</span>
-                            <span
-                                style="padding: 10px; background: #333; border-radius: 8px; color: #4A90D9; font-weight: bold;">1</span>
-                            <span style="padding: 10px; color: #E63946;">2</span>
-                            <span
-                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">3</span>
-                            <span
-                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">4</span>
-                            <span
-                                style="padding: 10px; background: #4a4a2d; border-radius: 8px; color: #FFC107;">5</span>
-                            <span style="padding: 10px; color: #555; text-decoration: line-through;">6</span>
-                            <span
-                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">7</span>
-                            <span
-                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #4A90D9;">8</span>
-                            <span style="padding: 10px; color: #E63946;">9</span>
-                            <span
-                                style="padding: 10px; background: #E63946; border-radius: 8px; color: white; font-weight: bold;">10</span>
-                            <span
-                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">11</span>
-                            <span
-                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">12</span>
-                            <span style="padding: 10px; color: #555; text-decoration: line-through;">13</span>
-                            <span
-                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">14</span>
-                            <span
-                                style="padding: 10px; background: #4a4a2d; border-radius: 8px; color: #4A90D9;">15</span>
-                        </div>
-
-                        <div
-                            style="display: flex; gap: 15px; justify-content: center; margin-top: 15px; font-size: 0.75rem; color: #888;">
-                            <span>🟢 空きあり</span><span>🟡 残りわずか</span><span>― 定休日</span>
-                        </div>
-                    </div>
-
-                    <!-- Time Slots -->
-                    <div style="padding: 20px; border-top: 1px solid #333; background: #1a1a1a;">
-                        <div style="font-weight: bold; margin-bottom: 15px; color: #fff;">2/10（月）の空き状況</div>
-                        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-                            <button
-                                style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">17:00</button>
-                            <button
-                                style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">18:00</button>
-                            <button
-                                style="padding: 10px 20px; background: #333; border: 2px solid #333; border-radius: 20px; color: #666;">19:00</button>
-                            <button
-                                style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">20:00</button>
-                            <button
-                                style="padding: 10px 20px; background: #333; border: 2px solid #333; border-radius: 20px; color: #666;">21:00</button>
-                        </div>
-                    </div>
-
-                    <!-- STORES Footer -->
-                    <div style="padding: 15px; background: #111; text-align: center; font-size: 0.75rem; color: #666;">
-                        Powered by <strong style="color: #E63946;">STORES 予約</strong>
-                    </div>
-                </div>
-
-                <p style="text-align: center; margin-bottom: 30px; font-size: 0.85rem; color: #888;">
-                    ※ 上記は埋め込みイメージです。実際にはSTORES予約のウィジェットが表示されます。
-                </p>
-
-                <div class="reservation-info">
-                    <p class="reservation-lead">ネット予約なら24時間いつでもご予約可能です。<br>お電話でのご予約も承っております。</p>
-                    <div class="reservation-methods">
-                        <a href="#" class="reservation-btn-main">
-                            <img src="images/icon-calendar.png" alt="" class="btn-icon"
-                                style="width: 28px; height: 28px;">
-                            <span class="btn-content">
-                                <span class="btn-label">ネット予約</span>
-                                <span class="btn-sub">24時間受付・空席確認</span>
-                            </span>
-                        </a>
-                        <a href="tel:0154-XX-XXXX" class="reservation-btn-phone">
-                            <img src="images/icon-phone.png" alt="" class="btn-icon" style="width: 28px; height: 28px;">
-                            <span class="btn-content">
-                                <span class="btn-label">電話予約</span>
-                                <span class="btn-sub">0154-XX-XXXX</span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="reservation-form-container">
-                    <form class="reservation-form">
-                        <div class="form-group">
-                            <label for="date">ご希望日</label>
-                            <input type="date" id="date" name="date" required>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="time">時間</label>
-                                <select id="time" name="time" required>
-                                    <option value="">選択してください</option>
-                                    <option value="17:00">17:00</option>
-                                    <option value="18:00">18:00</option>
-                                    <option value="19:00">19:00</option>
-                                    <option value="20:00">20:00</option>
-                                    <option value="21:00">21:00</option>
-                                </select>
+                            <!-- STORES Header -->
+                            <div
+                                style="background: linear-gradient(135deg, #E63946 0%, #FF6B6B 100%); color: white; padding: 20px; text-align: center;">
+                                <div style="font-size: 0.8rem; opacity: 0.9; margin-bottom: 5px;">STORES 予約</div>
+                                <div style="font-size: 1.3rem; font-weight: bold;">炭火焼き鳥 炎-HOMURA-</div>
                             </div>
-                            <div class="form-group">
-                                <label for="guests">人数</label>
-                                <select id="guests" name="guests" required>
-                                    <option value="">選択</option>
-                                    <option value="1">1名</option>
-                                    <option value="2">2名</option>
-                                    <option value="3">3名</option>
-                                    <option value="4">4名</option>
-                                    <option value="5">5名</option>
-                                    <option value="6">6名以上</option>
-                                </select>
+
+                            <!-- Calendar Mock -->
+                            <div style="padding: 20px; background: #222;">
+                                <div
+                                    style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                                    <button
+                                        style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #888;">◀</button>
+                                    <span style="font-weight: bold; font-size: 1.1rem; color: #fff;">2026年2月</span>
+                                    <button
+                                        style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #888;">▶</button>
+                                </div>
+
+                                <!-- Week Header -->
+                                <div
+                                    style="display: grid; grid-template-columns: repeat(7, 1fr); text-align: center; font-size: 0.8rem; color: #888; margin-bottom: 10px;">
+                                    <span
+                                        style="color: #E63946;">日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span
+                                        style="color: #4A90D9;">土</span>
+                                </div>
+
+                                <!-- Calendar Grid -->
+                                <div
+                                    style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; text-align: center;">
+                                    <span style="padding: 10px; color: #555;">26</span>
+                                    <span style="padding: 10px; color: #555;">27</span>
+                                    <span style="padding: 10px; color: #555;">28</span>
+                                    <span style="padding: 10px; color: #555;">29</span>
+                                    <span style="padding: 10px; color: #555;">30</span>
+                                    <span style="padding: 10px; color: #555;">31</span>
+                                    <span
+                                        style="padding: 10px; background: #333; border-radius: 8px; color: #4A90D9; font-weight: bold;">1</span>
+                                    <span style="padding: 10px; color: #E63946;">2</span>
+                                    <span
+                                        style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">3</span>
+                                    <span
+                                        style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">4</span>
+                                    <span
+                                        style="padding: 10px; background: #4a4a2d; border-radius: 8px; color: #FFC107;">5</span>
+                                    <span style="padding: 10px; color: #555; text-decoration: line-through;">6</span>
+                                    <span
+                                        style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">7</span>
+                                    <span
+                                        style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #4A90D9;">8</span>
+                                    <span style="padding: 10px; color: #E63946;">9</span>
+                                    <span
+                                        style="padding: 10px; background: #E63946; border-radius: 8px; color: white; font-weight: bold;">10</span>
+                                    <span
+                                        style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">11</span>
+                                    <span
+                                        style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">12</span>
+                                    <span style="padding: 10px; color: #555; text-decoration: line-through;">13</span>
+                                    <span
+                                        style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">14</span>
+                                    <span
+                                        style="padding: 10px; background: #4a4a2d; border-radius: 8px; color: #4A90D9;">15</span>
+                                </div>
+
+                                <div
+                                    style="display: flex; gap: 15px; justify-content: center; margin-top: 15px; font-size: 0.75rem; color: #888;">
+                                    <span>🟢 空きあり</span><span>🟡 残りわずか</span><span>― 定休日</span>
+                                </div>
+                            </div>
+
+                            <!-- Time Slots -->
+                            <div style="padding: 20px; border-top: 1px solid #333; background: #1a1a1a;">
+                                <div style="font-weight: bold; margin-bottom: 15px; color: #fff;">2/10（月）の空き状況</div>
+                                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                                    <button
+                                        style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">17:00</button>
+                                    <button
+                                        style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">18:00</button>
+                                    <button
+                                        style="padding: 10px 20px; background: #333; border: 2px solid #333; border-radius: 20px; color: #666;">19:00</button>
+                                    <button
+                                        style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">20:00</button>
+                                    <button
+                                        style="padding: 10px 20px; background: #333; border: 2px solid #333; border-radius: 20px; color: #666;">21:00</button>
+                                </div>
+                            </div>
+
+                            <!-- STORES Footer -->
+                            <div
+                                style="padding: 15px; background: #111; text-align: center; font-size: 0.75rem; color: #666;">
+                                Powered by <strong style="color: #E63946;">STORES 予約</strong>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="name">お名前</label>
-                            <input type="text" id="name" name="name" placeholder="例：山田 太郎" required>
+                        <p style="text-align: center; margin-top: 15px; font-size: 0.85rem; color: #888;">
+                            ※ 上記は埋め込みイメージです。実際にはSTORES予約のウィジェットが表示されます。
+                        </p>
+                    </div>
+
+                    <!-- 右: 電話予約 + 店舗情報 -->
+                    <div style="width: 450px; flex-shrink: 0;">
+                        <div style="background: #1a1a1a; border-radius: 12px; padding: 30px; border: 1px solid #333;">
+                            <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 20px; text-align: center;">
+                                お電話でのご予約</h3>
+                            <a href="tel:0154-XX-XXXX"
+                                style="display: flex; align-items: center; justify-content: center; gap: 12px; color: #E63946; font-size: 1.5rem; font-weight: bold; text-decoration: none; margin-bottom: 20px;">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                </svg>
+                                0154-XX-XXXX
+                            </a>
+                            <p style="text-align: center; font-size: 0.8rem; color: #888; margin-bottom: 25px;">
+                                受付時間: 15:00〜23:00
+                            </p>
+
+                            <div style="border-top: 1px solid #333; padding-top: 20px;">
+                                <h4 style="color: #d4a853; font-size: 0.9rem; margin-bottom: 15px;">店舗情報</h4>
+                                <div
+                                    style="display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 0.9rem;">
+                                    <span style="color: #888;">営業時間</span>
+                                    <span style="color: #fff;">17:00 - 24:00</span>
+                                </div>
+                                <div
+                                    style="display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 0.9rem;">
+                                    <span style="color: #888;">定休日</span>
+                                    <span style="color: #fff;">日曜日</span>
+                                </div>
+                                <div
+                                    style="display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 0.9rem;">
+                                    <span style="color: #888;">席数</span>
+                                    <span style="color: #fff;">カウンター8席・テーブル20席</span>
+                                </div>
+                                <div
+                                    style="display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 0.9rem;">
+                                    <span style="color: #888;">駐車場</span>
+                                    <span style="color: #fff;">近隣コインパーキング</span>
+                                </div>
+                                <div style="display: flex; justify-content: space-between; font-size: 0.9rem;">
+                                    <span style="color: #888;">お支払い</span>
+                                    <span style="color: #fff;">現金・カード・PayPay</span>
+                                </div>
+                            </div>
+
+                            <div style="border-top: 1px solid #333; padding-top: 20px; margin-top: 20px;">
+                                <p style="font-size: 0.8rem; color: #888; line-height: 1.6;">
+                                    ※ 当日のご予約はお電話にてお願いいたします<br>
+                                    ※ コース料理は前日までにご予約ください<br>
+                                    ※ 貸切は10名様より承ります
+                                </p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="phone">電話番号</label>
-                            <input type="tel" id="phone" name="phone" placeholder="例：090-1234-5678" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">メールアドレス</label>
-                            <input type="email" id="email" name="email" placeholder="例：example@email.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="course">コース選択</label>
-                            <select id="course" name="course">
-                                <option value="">席のみ予約</option>
-                                <option value="manpuku">炎満喫コース ¥4,500</option>
-                                <option value="gokujo">極上地鶏コース ¥6,500</option>
-                                <option value="tabenomi">炎食べ飲み放題 ¥5,500</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="requests">ご要望</label>
-                            <textarea id="requests" name="requests" rows="3" placeholder="アレルギー、お席のご要望など"></textarea>
-                        </div>
-                        <button type="submit" class="form-submit">予約を確定する</button>
-                    </form>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -719,30 +705,29 @@
                             <td>〒085-0015<br>北海道釧路市北大通5丁目1-2 ビル2F</td>
                         </tr>
                         <tr>
-                            <th>アクセス</th>
+                            <th>最寄り駅</th>
                             <td>JR釧路駅より徒歩5分</td>
                         </tr>
                         <tr>
-                            <th>電話番号</th>
-                            <td><a href="tel:0154-XX-XXXX">0154-XX-XXXX</a></td>
+                            <th>目印</th>
+                            <td>北大通り沿い・セブンイレブン隣のビル</td>
                         </tr>
                         <tr>
-                            <th>営業時間</th>
-                            <td>17:00〜24:00（L.O. 23:00）</td>
-                        </tr>
-                        <tr>
-                            <th>定休日</th>
-                            <td>日曜日</td>
-                        </tr>
-                        <tr>
-                            <th>席数</th>
-                            <td>カウンター8席 / テーブル24席 / 個室4室</td>
-                        </tr>
-                        <tr>
-                            <th>お支払い</th>
-                            <td>現金 / クレジットカード / QRコード決済</td>
+                            <th>駐車場</th>
+                            <td>近隣コインパーキングをご利用ください</td>
                         </tr>
                     </table>
+                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #333;">
+                        <a href="https://maps.google.com/?q=北海道釧路市北大通5丁目1-2" target="_blank"
+                            style="display: inline-flex; align-items: center; gap: 8px; color: #E63946; font-size: 0.9rem; text-decoration: none;">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            Googleマップで開く →
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
