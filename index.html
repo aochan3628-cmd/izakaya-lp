@@ -17,7 +17,7 @@
 <body>
     <!-- Fixed Reservation Button -->
     <a href="#reservation" class="fixed-reservation-btn">
-        <span class="icon">📅</span>
+        <img src="images/icon-calendar.png" alt="" class="icon" style="width: 20px; height: 20px;">
         <span class="text">ネット予約</span>
     </a>
 
@@ -124,17 +124,20 @@
             </div>
             <div class="concept-grid">
                 <div class="concept-card">
-                    <div class="concept-icon">🔥</div>
+                    <div class="concept-icon"><img src="images/icon-fire.png" alt="" style="width: 48px; height: 48px;">
+                    </div>
                     <h3>備長炭へのこだわり</h3>
                     <p>紀州産の最高級備長炭を使用。遠赤外線効果で外はパリッと、中はジューシーに焼き上げます。</p>
                 </div>
                 <div class="concept-card">
-                    <div class="concept-icon">🐔</div>
+                    <div class="concept-icon"><img src="images/icon-chicken.png" alt=""
+                            style="width: 48px; height: 48px;"></div>
                     <h3>国産鶏へのこだわり</h3>
                     <p>知覧鶏、比内地鶏など厳選した国産銘柄鶏のみを使用。新鮮な朝引き鶏をお届けします。</p>
                 </div>
                 <div class="concept-card">
-                    <div class="concept-icon">🍶</div>
+                    <div class="concept-icon"><img src="images/icon-sake.png" alt="" style="width: 48px; height: 48px;">
+                    </div>
                     <h3>秘伝のタレ</h3>
                     <p>創業以来継ぎ足し続けた秘伝のタレ。深みのあるコクと香りが串を引き立てます。</p>
                 </div>
@@ -460,7 +463,8 @@
             </div>
             <div class="drinks-grid">
                 <div class="drink-category">
-                    <h3 class="drink-category-title">🍺 ビール</h3>
+                    <h3 class="drink-category-title"><img src="images/icon-beer.png" alt=""
+                            style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">ビール</h3>
                     <ul class="drink-list">
                         <li><span>サッポロ黒ラベル 生</span><span>¥580</span></li>
                         <li><span>サッポロクラシック</span><span>¥650</span></li>
@@ -468,7 +472,8 @@
                     </ul>
                 </div>
                 <div class="drink-category">
-                    <h3 class="drink-category-title">🥃 ハイボール</h3>
+                    <h3 class="drink-category-title"><img src="images/icon-highball.png" alt=""
+                            style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">ハイボール</h3>
                     <ul class="drink-list">
                         <li><span>角ハイボール</span><span>¥480</span></li>
                         <li><span>知多ハイボール</span><span>¥650</span></li>
@@ -477,7 +482,8 @@
                     </ul>
                 </div>
                 <div class="drink-category">
-                    <h3 class="drink-category-title">🍶 日本酒</h3>
+                    <h3 class="drink-category-title"><img src="images/icon-sake.png" alt=""
+                            style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">日本酒</h3>
                     <ul class="drink-list">
                         <li><span>地酒3種飲み比べ</span><span>¥980</span></li>
                         <li><span>純米大吟醸</span><span>¥850</span></li>
@@ -485,7 +491,8 @@
                     </ul>
                 </div>
                 <div class="drink-category">
-                    <h3 class="drink-category-title">🍸 サワー</h3>
+                    <h3 class="drink-category-title"><img src="images/icon-cocktail.png" alt=""
+                            style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">サワー</h3>
                     <ul class="drink-list">
                         <li><span>レモンサワー</span><span>¥450</span></li>
                         <li><span>グレフルサワー</span><span>¥450</span></li>
@@ -505,18 +512,119 @@
                 <h2 class="section-title">ご予約</h2>
             </div>
             <div class="reservation-content">
+                <!-- STORES予約 埋め込みプレビュー -->
+                <div
+                    style="max-width: 600px; margin: 0 auto 40px; background: #1a1a1a; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); overflow: hidden; border: 1px solid #333;">
+
+                    <!-- STORES Header -->
+                    <div
+                        style="background: linear-gradient(135deg, #E63946 0%, #FF6B6B 100%); color: white; padding: 20px; text-align: center;">
+                        <div style="font-size: 0.8rem; opacity: 0.9; margin-bottom: 5px;">STORES 予約</div>
+                        <div style="font-size: 1.3rem; font-weight: bold;">炭火焼き鳥 炎-HOMURA-</div>
+                    </div>
+
+                    <!-- Calendar Mock -->
+                    <div style="padding: 20px; background: #222;">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <button
+                                style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #888;">◀</button>
+                            <span style="font-weight: bold; font-size: 1.1rem; color: #fff;">2026年2月</span>
+                            <button
+                                style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #888;">▶</button>
+                        </div>
+
+                        <!-- Week Header -->
+                        <div
+                            style="display: grid; grid-template-columns: repeat(7, 1fr); text-align: center; font-size: 0.8rem; color: #888; margin-bottom: 10px;">
+                            <span
+                                style="color: #E63946;">日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span
+                                style="color: #4A90D9;">土</span>
+                        </div>
+
+                        <!-- Calendar Grid -->
+                        <div
+                            style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; text-align: center;">
+                            <span style="padding: 10px; color: #555;">26</span>
+                            <span style="padding: 10px; color: #555;">27</span>
+                            <span style="padding: 10px; color: #555;">28</span>
+                            <span style="padding: 10px; color: #555;">29</span>
+                            <span style="padding: 10px; color: #555;">30</span>
+                            <span style="padding: 10px; color: #555;">31</span>
+                            <span
+                                style="padding: 10px; background: #333; border-radius: 8px; color: #4A90D9; font-weight: bold;">1</span>
+                            <span style="padding: 10px; color: #E63946;">2</span>
+                            <span
+                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">3</span>
+                            <span
+                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">4</span>
+                            <span
+                                style="padding: 10px; background: #4a4a2d; border-radius: 8px; color: #FFC107;">5</span>
+                            <span style="padding: 10px; color: #555; text-decoration: line-through;">6</span>
+                            <span
+                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">7</span>
+                            <span
+                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #4A90D9;">8</span>
+                            <span style="padding: 10px; color: #E63946;">9</span>
+                            <span
+                                style="padding: 10px; background: #E63946; border-radius: 8px; color: white; font-weight: bold;">10</span>
+                            <span
+                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">11</span>
+                            <span
+                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">12</span>
+                            <span style="padding: 10px; color: #555; text-decoration: line-through;">13</span>
+                            <span
+                                style="padding: 10px; background: #2d4a2d; border-radius: 8px; color: #8BC34A;">14</span>
+                            <span
+                                style="padding: 10px; background: #4a4a2d; border-radius: 8px; color: #4A90D9;">15</span>
+                        </div>
+
+                        <div
+                            style="display: flex; gap: 15px; justify-content: center; margin-top: 15px; font-size: 0.75rem; color: #888;">
+                            <span>🟢 空きあり</span><span>🟡 残りわずか</span><span>― 定休日</span>
+                        </div>
+                    </div>
+
+                    <!-- Time Slots -->
+                    <div style="padding: 20px; border-top: 1px solid #333; background: #1a1a1a;">
+                        <div style="font-weight: bold; margin-bottom: 15px; color: #fff;">2/10（月）の空き状況</div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                            <button
+                                style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">17:00</button>
+                            <button
+                                style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">18:00</button>
+                            <button
+                                style="padding: 10px 20px; background: #333; border: 2px solid #333; border-radius: 20px; color: #666;">19:00</button>
+                            <button
+                                style="padding: 10px 20px; background: transparent; border: 2px solid #E63946; border-radius: 20px; color: #E63946; font-weight: bold;">20:00</button>
+                            <button
+                                style="padding: 10px 20px; background: #333; border: 2px solid #333; border-radius: 20px; color: #666;">21:00</button>
+                        </div>
+                    </div>
+
+                    <!-- STORES Footer -->
+                    <div style="padding: 15px; background: #111; text-align: center; font-size: 0.75rem; color: #666;">
+                        Powered by <strong style="color: #E63946;">STORES 予約</strong>
+                    </div>
+                </div>
+
+                <p style="text-align: center; margin-bottom: 30px; font-size: 0.85rem; color: #888;">
+                    ※ 上記は埋め込みイメージです。実際にはSTORES予約のウィジェットが表示されます。
+                </p>
+
                 <div class="reservation-info">
                     <p class="reservation-lead">ネット予約なら24時間いつでもご予約可能です。<br>お電話でのご予約も承っております。</p>
                     <div class="reservation-methods">
                         <a href="#" class="reservation-btn-main">
-                            <span class="btn-icon">📅</span>
+                            <img src="images/icon-calendar.png" alt="" class="btn-icon"
+                                style="width: 28px; height: 28px;">
                             <span class="btn-content">
                                 <span class="btn-label">ネット予約</span>
                                 <span class="btn-sub">24時間受付・空席確認</span>
                             </span>
                         </a>
                         <a href="tel:0154-XX-XXXX" class="reservation-btn-phone">
-                            <span class="btn-icon">📞</span>
+                            <img src="images/icon-phone.png" alt="" class="btn-icon" style="width: 28px; height: 28px;">
                             <span class="btn-content">
                                 <span class="btn-label">電話予約</span>
                                 <span class="btn-sub">0154-XX-XXXX</span>
